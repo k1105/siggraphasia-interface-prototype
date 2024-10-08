@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import { useCallback, useEffect, useState } from "react";
-import { SendIcon } from "@/components/icon/sendIcon";
+import { SendIcon } from "@/components/icon/SendIcon";
 
 const inter = Inter({ subsets: ["latin"] });
 
