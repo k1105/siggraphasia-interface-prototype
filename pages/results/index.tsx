@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Battle01, Battle02 } from "@/public/lyrics/battle";
+import { Battle01, Battle02, Battle03 } from "@/public/lyrics/battle";
 import LyricContainer from "@/components/LyricContainer";
 
 export default function Result() {
   const [play, setPlay] = useState<boolean>(false);
-  const battle = Battle01;
+  const battle = Battle03;
   const [currentLyricIndex, setCurrentLyricIndex] = useState(0);
 
   const handleComplete = () => {
