@@ -87,7 +87,7 @@ export default function Home() {
           main {
             width: 100vw;
             height: 100vh;
-            background: rgb(30, 30, 30);
+            background: var(--main-bg-color);
           }
 
           .center-content {
